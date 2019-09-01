@@ -48,7 +48,8 @@ print(City._fields)
 
 LatLong = namedtuple('LatLong', 'lat long')
 delhi_data = ('Delhi NCR', 'IN', 21.953, LatLong(28.613889, 77.208889))
-# позволяет экземпляр именнованного кортежа из интерпретируемого объекта. как City(*delhi_data)
+
+# позволяет создать экземпляр именнованного кортежа из интерпретируемого объекта. как City(*delhi_data)
 delhi = City._make(delhi_data)
 
 # превращает объект в collections.OrderedDict. Можно использовать для вывода
