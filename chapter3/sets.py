@@ -40,7 +40,7 @@ print(needles | haystack)
 # Разность
 print(needles - haystack)
 
-# Дополнение пересечения (симметрическая разность
+# Дополнение пересечения (симметрическая разность)
 print(needles ^ haystack)
 
 # Пересечение

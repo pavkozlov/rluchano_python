@@ -1,5 +1,5 @@
 from types import MappingProxyType
-# Любые изменения исходното отображения будут видны в MappingProxyType, но через него сделать изменения нельзя
+# Любые изменения исходного отображения будут видны в MappingProxyType, но через него сделать изменения нельзя
 d = {1: 'a'}
 mpt = MappingProxyType(d)
 
